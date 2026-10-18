@@ -46,8 +46,8 @@ const Hero = () => {
               <a href="/request-quote">Request a Quote</a>
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white  hover:text-construction-gray">
-              View Services
+            <Button size="lg" variant="outline" className="border-white text-white hover:text-construction-gray" asChild>
+              <a href="/#services">View Services</a>
             </Button>
           </div>
 
